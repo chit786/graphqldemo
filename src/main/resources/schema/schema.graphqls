@@ -1,0 +1,8 @@
+type Query {
+    show(titleFilter: String) : [Show]
+}
+
+type Show {
+    title: String
+    rating: Int
+}
